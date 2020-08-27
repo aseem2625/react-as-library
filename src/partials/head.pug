@@ -1,0 +1,13 @@
+block head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width,initial-scale=1')
+    link(rel='shortcut icon' href='/favicon.png?v=2' type='image/png')
+    title #{title}
+    meta(name='description' content=description)
+
+    link(rel='stylesheet' href='/css/index.css')
+    link(rel='stylesheet' href='/css/some.css')
+
+    script(type="text/javascript").
+        const msg = 'User';
+        console.log('Hi %s, I\'m script tag in head', msg);

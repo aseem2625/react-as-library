@@ -1,0 +1,9 @@
+{
+  "items": [{
+    "name": "Grizzly Bear",
+    "description": "Keeps grizzling all the time"
+  }, {
+    "name": "Honey Bear",
+    "description": "Honey eating bear"
+  }]
+}

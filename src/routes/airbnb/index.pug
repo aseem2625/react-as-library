@@ -1,0 +1,19 @@
+---
+title: Airbnb - Spoof
+description: This is Home for amazing boilerplate
+---
+
+extends /partials/templates/layout
+
+append head
+  link(rel='stylesheet' href='/css/airbnb.css')
+  script(src='http://localhost:7000/base_vendor.js')
+  script(src='http://localhost:7000/vendor.js')
+  script(src='http://localhost:7000/main.js')
+  //script(src='http://localhost:7000/js/client.js')
+
+append MAIN
+  .homepage
+    img(class="bg-img" src="../static/airbnb.png" width="100%")
+    #search-root
+    #profile-root
